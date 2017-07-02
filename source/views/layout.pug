@@ -1,0 +1,39 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    title="Diversant210215"
+    link(rel='stylesheet' href='./lib.css')
+    link(rel='stylesheet' href='./styles.css')
+  body#body
+    header.site-header
+      nav#navbar.navbar.fixed-top.navbar-toggleable-md.navbar-light.bg-faded
+        .container.py-0
+          button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarToggler', aria-controls='navbarToggler', aria-expanded='false', aria-label='Toggle navigation')
+            span.navbar-toggler-icon
+          a.navbar-brand(href='#').py-auto
+            img(src='./img/logo-icon.svg' alt='Colorful Flat')
+            | Colorful Flat
+          #navbarToggler.collapse.navbar-collapse
+            ul.navbar-nav.ml-auto.mt-2.mt-md-0
+              li.nav-item
+                a.nav-link.smooth-scroll(href='#body') Home 
+              li.nav-item
+                a.nav-link.smooth-scroll(href='#services') Services
+              li.nav-item
+                a.nav-link.smooth-scroll(href='#portfolio') Portfolio
+              li.nav-item.dropdown
+                a.nav-link.dropdown-toggle(href='#' id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Blog
+                .dropdown-menu(aria-labelledby='navbarDropdownMenuLink')
+                  a.dropdown-item(href='#' data-toggle='modal', data-target='#scopeModal') Post type 1
+                  a.dropdown-item(href='#' data-toggle='modal', data-target='#scopeModal') Post type 2
+                  a.dropdown-item(href='#' data-toggle='modal', data-target='#scopeModal') Post type 3
+              li.nav-item
+                a.nav-link(href='#' data-toggle='modal', data-target='#scopeModal') Contact
+
+    block content
+
+    script(src="./main.js")
+
+  

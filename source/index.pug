@@ -1,0 +1,185 @@
+extends views/layout.pug
+
+block content
+
+	section#hero
+		.hero-slick
+			.hero-slide.slide-1
+				.container
+					.grid_8
+						h2 This Template<br>is Awesome!
+						p In has brute virtute, mundi facete perfecto ius ne. Cu tota evertitur necessitatibus nec. Ei quo rebum zril electram, accusata iracundia ei his. Ad qui recusabo deseruisse, cu per odio nihil. Eu vide mucius mei. Maiorum tractatos instructior ut eos, graece graecis vix an, consul impetus mediocrem an his. Possit pericula argumentum vix ex.
+						a(href="#"  data-toggle='modal', data-target='#scopeModal').btn.btn-secondary Read more
+			.hero-slide.slide-2
+				.container
+					.grid_8
+						h2 A Lot of Epic Ideas<br>in One Template
+						p In has brute virtute, mundi facete perfecto ius ne. Cu tota evertitur necessitatibus nec. Ei quo rebum zril electram, accusata iracundia ei his. Ad qui recusabo deseruisse, cu per odio nihil. Eu vide mucius mei. Maiorum tractatos instructior ut eos, graece graecis vix an, consul impetus mediocrem an his. Possit pericula argumentum vix ex.
+						a(href="#"  data-toggle='modal', data-target='#scopeModal').btn.btn-secondary Read more
+			.hero-slide.slide-3
+				.container
+					.grid_8
+						h2 Explore new<br>Possibilities
+						p In has brute virtute, mundi facete perfecto ius ne. Cu tota evertitur necessitatibus nec. Ei quo rebum zril electram, accusata iracundia ei his. Ad qui recusabo deseruisse, cu per odio nihil. Eu vide mucius mei. Maiorum tractatos instructior ut eos, graece graecis vix an, consul impetus mediocrem an his. Possit pericula argumentum vix ex.
+						a(href="#"  data-toggle='modal', data-target='#scopeModal').btn.btn-secondary Read more
+
+	section#services
+		.container.text-center
+			.row
+				.grid_4.flat
+					h3 Flat Design
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+				.grid_4.ideas
+					h3 Great Ideas
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+				.grid_4.browser
+					h3 Browser Compatibility
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+
+	section#portfolio
+		.container.text-center
+			h2 Recent templates
+			p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+			ul.nav.nav-pills.justify-content-center(role='tablist')
+				li.nav-item
+					a.nav-link.active(data-toggle='tab', href='#dueeu', role='tab') Due eu
+				li.nav-item
+					a.nav-link(data-toggle='tab', href='#noster', role='tab') Noster
+				li.nav-item
+					a.nav-link(data-toggle='tab', href='#quaeque', role='tab') Quaeque
+				li.nav-item
+					a.nav-link(data-toggle='tab', href='#delicata', role='tab') Delicata
+				li.nav-item
+					a.nav-link(data-toggle='tab', href='#aliquando', role='tab') Aliquando
+			.tab-content
+				#dueeu.tab-pane.active(role='tabpanel')
+					.row
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-1'): img(src='./img/template-1.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-2'): img(src='./img/template-2.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-3'): img(src='./img/template-3.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-4'): img(src='./img/template-4.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-5'): img(src='./img/template-5.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-6'): img(src='./img/template-6.png')
+				#noster.tab-pane(role='tabpanel')
+					.row
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-2'): img(src='./img/template-2.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-3'): img(src='./img/template-3.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-4'): img(src='./img/template-4.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-5'): img(src='./img/template-5.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-6'): img(src='./img/template-6.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-1'): img(src='./img/template-1.png')
+				#quaeque.tab-pane(role='tabpanel')
+					.row
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-3'): img(src='./img/template-3.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-4'): img(src='./img/template-4.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-5'): img(src='./img/template-5.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-6'): img(src='./img/template-6.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-1'): img(src='./img/template-1.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-2'): img(src='./img/template-2.png')
+				#delicata.tab-pane(role='tabpanel')
+					.row
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-4'): img(src='./img/template-4.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-5'): img(src='./img/template-5.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-6'): img(src='./img/template-6.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-1'): img(src='./img/template-1.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-2'): img(src='./img/template-2.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-3'): img(src='./img/template-3.png')
+				#aliquando.tab-pane(role='tabpanel')
+					.row
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-5'): img(src='./img/template-5.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-6'): img(src='./img/template-6.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-1'): img(src='./img/template-1.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-2'): img(src='./img/template-2.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-3'): img(src='./img/template-3.png')
+						.grid_4
+							a(href="#", data-toggle='modal', data-target='#lightboxModal', data-whatever='template-4'): img(src='./img/template-4.png')
+			a(href="#" data-toggle='modal', data-target='#scopeModal').btn.btn-secondary Show more
+
+			#lightboxModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='lightboxModalLabel', aria-hidden='true')
+				.modal-dialog.modal-lg(role='document')
+					img#lightboxImg(src='./img/template-1.png')
+
+	section#faq
+		.container
+			.text-center
+				h2 FAQ'S
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+			.row
+				.grid_4
+					h3: a(href="#vivamus" data-toggle="collapse" aria-expanded="false" aria-controls="vivamus") Vivamus eget nibh. Etiam cursus leo vel metus. Nulla 
+					#vivamus.collapse.show
+						p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+					h3: a(href="#diam" data-toggle="collapse" aria-expanded="false" aria-controls="diam") Diam utinam ridens has ex, an veri putant
+					#diam.collapse
+						p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+				.grid_4
+					h3: a(href="#noster1" data-toggle="collapse" aria-expanded="false" aria-controls="noster1") Noster indoctum his no, apeirian torquatos
+					#noster1.collapse
+						p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+					h3: a(href="#noster2" data-toggle="collapse" aria-expanded="false" aria-controls="noster2") Noster indoctum his no, apeirian torquatos
+					#noster2.collapse
+						p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+				.grid_4
+					h3: a(href="#diam2" data-toggle="collapse" aria-expanded="false" aria-controls="diam2") Diam utinam ridens has ex, an veri putant
+					#diam2.collapse
+						p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+					h3: a(href="#diam3" data-toggle="collapse" aria-expanded="false" aria-controls="diam3") Diam utinam ridens has ex, an veri putant
+					#diam3.collapse
+						p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+
+	#scopeModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='scopeModalLabel', aria-hidden='true')
+		.modal-dialog.modal-lg(role='document')
+			.modal-content
+				.modal-header
+					h5.modal-title This part is beyond the scope of the task
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+						span(aria-hidden='true') ×
+				.modal-body
+					ol
+						li Сверстать необходимо первые три экрана (блока).
+						li При верстке макета необходимо использовать нашу сетку grid.css
+						li Страница должна быть адаптивна (вплоть до 320px) и кросс-браузерна (Safari,
+						li ome, Firefox) с валидным HTML и без ошибок в консоли
+						li Использование в проекте gulp и заливка готового кода на git будет плюсом
+						li На странице необходимо реализовать:
+						ol(type="a")
+							li Sticky menu
+							li Drop down
+							li Smooth scroll to anchor
+							li Slider
+							li Pop up
+							li Tabs
+							li Lightbox
+							li Accordion
+				.modal-footer
+					button.btn.btn-secondary(type='button') Save changes
+					button.btn.btn-secondary(type='button', data-dismiss='modal') Close
